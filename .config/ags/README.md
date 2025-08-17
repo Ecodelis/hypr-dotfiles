@@ -12,3 +12,6 @@ Available Commands:
   bundle      Bundle an app
   init        Initialize a project directory
   help        Help about any command
+
+
+  Force AGS to run the GDK backend set to Wayland
