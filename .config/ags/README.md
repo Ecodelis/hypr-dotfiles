@@ -17,7 +17,7 @@ init        Initialize a project directory
 help        Help about any command
 ```
 
-Force AGS to run the GDK backend set to Wayland
+Force AGS to run the GDK backend set to Wayland:
 ```bash
 env GDK_BACKEND=wayland ags run
 ```
