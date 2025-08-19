@@ -1,0 +1,8 @@
+QtObject {
+    function notify(text) {
+        Qt.process.startDetached("notify-send", [text])
+    }
+}
+
+
+make notifications for stuff
