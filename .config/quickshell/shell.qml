@@ -1,6 +1,14 @@
-// shell.qml
-import Quickshell
+//@ pragma UseQApplication
 
-Scope {
-  Bar {}
+import QtQuick
+import Quickshell
+import "./modules/bar/"
+
+ShellRoot {
+    id: root
+
+    Loader {
+        active: true
+        sourceComponent: Bar{}
+    }
 }
